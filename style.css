@@ -102,11 +102,30 @@ button {
 
 .information-images p {
     width: 164px;
+    color: #1F2937;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
     background: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 0;
 }
 
+.quotation {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    width: 1000px;
+    margin-bottom: 0;
+}
+
+.source {
+    width: 1000px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
