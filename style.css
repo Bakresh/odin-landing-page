@@ -9,9 +9,11 @@ body {
     background: #1F2937;
     color: #E5E7EB;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+
+.header.two {
     padding: 0 0 120px;
-    align-items: center;
 }
 
 .logo-links {
@@ -79,8 +81,10 @@ button {
 
 .information {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+}
+
+.information.two {
     padding: 0 0 120px;
 }
 
